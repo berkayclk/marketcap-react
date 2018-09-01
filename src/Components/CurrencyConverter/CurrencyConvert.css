@@ -1,0 +1,20 @@
+.currency-converter{
+    background-color: #787f8e38;
+    padding: 10px 40px 10px 40px;
+}
+
+select#fromCurrency, select#toCurrency {
+   /*width: 100px;*/
+    padding: 2px;
+    margin: 3px;
+}
+
+span.header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30pt;
+    text-align: center;
+}
+
+.form-group .submit-item{
+    float: right;
+}
