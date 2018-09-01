@@ -17,12 +17,14 @@ class App extends React.Component {
         </div>
 
         <div className="container">
+
+          <div className="col-md-6">
+                  <Clcok  />
+            </div>
           <div className="col-md-6">
               <CurrencyConverter/>
             </div>
-            <div className="col-md-6">
-                  <Clcok  />
-            </div>
+
 
             <div className="col-md-12" Style="margin-top:10px;">
               <MarketCapTable  />
