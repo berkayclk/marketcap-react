@@ -92,7 +92,7 @@ class HeadIndukator extends React.Component {
 
         element =    (this.state.GlobalResponse !== null && this.state.GlobalResponse !== undefined && this.state.GlobalResponse[GlobaMarketlApiDataProperties.quotes][this.state.SelectedCurrency] !== undefined ) ?
                             (
-                            <div>
+                            <div >
                                 <div className="global-stats mobile visible-xs" data-global-stats-container="">
                                     <ul className="list-group ">
                                         <li className="list-group-item main">
@@ -138,7 +138,7 @@ class HeadIndukator extends React.Component {
                         </div>
                         ) :
                         (<div></div>);
-        return (<div>  {element} </div>);
+        return (<div className="col-md-12"  Style={this.props.Style}>  {element} </div>);
         }
     }
 

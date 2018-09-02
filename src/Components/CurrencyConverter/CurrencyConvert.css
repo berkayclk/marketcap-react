@@ -1,5 +1,5 @@
 .currency-converter{
-    background-color: #787f8e38;
+    background-color: #c2cde585;
     padding: 10px 40px 10px 40px;
 }
 
@@ -10,8 +10,9 @@ select#fromCurrency, select#toCurrency {
 }
 
 span.header{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30pt;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 25pt;
+    color: #031c5185;
     text-align: center;
 }
 
