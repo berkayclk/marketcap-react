@@ -89,7 +89,7 @@ class CurrencyConverter extends React.Component {
             return options;
         }
           return (
-                <div class="currency-converter col-md-12" >
+                <div className={"currency-converter "+this.props.className}>
                     <span className="header col-md-12" > PARA BİRİMİ ÇEVİR</span>
 
                     <div className="row">

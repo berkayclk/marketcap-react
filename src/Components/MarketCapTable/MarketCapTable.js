@@ -162,7 +162,7 @@ class MarketCapTable extends React.Component {
         }
 
         const element = ( this.state.coins !== null && this.state.coins !== undefined &&  this.state.coins.length>0) ? (
-            <table className="table">
+            <table  className="table" >
                 <thead>
                     <tr>
                         <th scope="col">
@@ -193,14 +193,14 @@ class MarketCapTable extends React.Component {
                 </tbody>
 
             </table> ) :
-        ( <div>
+        ( <div >
               Yükleniyor...
         </div>);
 
 
 
         return (
-            <div>
+            <div className={this.props.className} Style={this.props.Style}>
             <TableModifier limit={this.state.limit} start={this.state.start} currency={this.state.currency} onCurrencyChange={this.currencySelectorOnChange}  onLimitChange={this.onLimitChange} onStartChange={this.onStartChange} />
               {element}
 
