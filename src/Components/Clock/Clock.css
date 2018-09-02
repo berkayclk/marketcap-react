@@ -1,9 +1,12 @@
 .clock{
-    text-align: right;
+    text-align: center !important;
+    background-color: #4f4f4f50;
+    height: 100%;
 }
 .clock h2{
-    background-color: #4f4f4f50;
+    float: left;
+    /*background-color: #4f4f4f50;*/
     padding: 5px;
     width: max-content;
-    float: right;
+    margin-left: 40%;
 }
